@@ -1,33 +1,35 @@
-# note-challenge
+# Comment Editor App
 
-This template should help get you started developing with Vue 3 in Vite.
+A Vue 3 application with a rich text editor and comment management functionality, built using Pinia for state management and the `@vueup/vue-quill` editor for text input. Users can type, save, and manage comments, which are stored in `localStorage`.
 
-## Recommended IDE Setup
+## Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **Rich Text Editor** powered by Quill, allowing for text formatting.
+- **Comment Management** with user-friendly add and delete functionality.
+- **Data Persistence** with `localStorage`, saving comments and editor content across sessions.
+- **Pinia State Management** for centralized and reactive data handling.
 
-## Type Support for `.vue` Imports in TS
+## Technologies Used
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
+- **Vue 3** with Composition API
+- **Pinia** for state management
+- **Quill** rich text editor (`@vueup/vue-quill`)
+- **TypeScript** for type-safe coding
+- **Tailwind CSS** for styling
 
 ## Project Setup
 
-```sh
-npm install
-```
+### Prerequisites
 
-### Compile and Hot-Reload for Development
+Ensure you have the following installed:
 
-```sh
-npm run dev
-```
+- **Node.js** (v16 or later recommended)
+- **npm** (v7 or later recommended)
 
-### Type-Check, Compile and Minify for Production
+### Installation
 
-```sh
-npm run build
-```
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/comment-editor-app.git
+   cd comment-editor-app
